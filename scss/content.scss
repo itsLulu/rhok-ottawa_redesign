@@ -18,7 +18,7 @@ li{ list-style: none;} a{text-decoration: none;}
 section{
 	@include clearfix;
 }
-.section-center-title{
+.section-center-title{float:left; width:100%;
 	background:url(../images/line4px.png) repeat-x center;
 	
 	.section-title{text-align: center; background-color:$light; 

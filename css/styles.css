@@ -550,8 +550,8 @@ body {
   font-size: 62.5%;
   font-family: "Open Sans", sans-serif;
   color: black;
-  max-width: 1280px;
   min-width: 320px;
+  margin: 0 auto;
 }
 
 /* line 1, ../scss/navstyle.scss */
@@ -654,15 +654,25 @@ header, .wrap, footer {
   z-index: 3;
   width: 100%;
   display: block;
+}
+
+/* line 7, ../scss/structure.scss */
+header, footer {
   float: left;
 }
 
 /* line 8, ../scss/structure.scss */
+.wrap {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* line 11, ../scss/structure.scss */
 footer {
   background-color: black;
   padding-bottom: 2em;
 }
-/* line 9, ../scss/structure.scss */
+/* line 12, ../scss/structure.scss */
 footer .footer-copyright {
   color: white;
   padding-left: 2%;
@@ -673,7 +683,7 @@ footer .footer-copyright {
 }
 
 /*homepage*/
-/* line 13, ../scss/structure.scss */
+/* line 16, ../scss/structure.scss */
 #rhok_brief {
   width: 46%;
   padding: 0 27% 0;
@@ -686,11 +696,11 @@ footer .footer-copyright {
   margin-top: 11%;
   display: none;
 }
-/* line 16, ../scss/structure.scss */
+/* line 19, ../scss/structure.scss */
 #rhok_brief a {
   color: #f25a3b;
 }
-/* line 17, ../scss/structure.scss */
+/* line 20, ../scss/structure.scss */
 #rhok_brief .learnmore {
   margin: 4% 13% 0;
   width: 66%;
@@ -699,13 +709,13 @@ footer .footer-copyright {
   font-size: 1rem;
   color: white;
 }
-/* line 19, ../scss/structure.scss */
+/* line 22, ../scss/structure.scss */
 #rhok_brief .learnmore:hover {
   background-color: white;
   color: #f25a3b;
 }
 
-/* line 22, ../scss/structure.scss */
+/* line 25, ../scss/structure.scss */
 .pic-center {
   width: 28%;
   padding-top: 28%;
@@ -723,7 +733,7 @@ footer .footer-copyright {
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-/* line 33, ../scss/structure.scss */
+/* line 36, ../scss/structure.scss */
 .pic-center:hover {
   background-image: url(../images/logo2.png);
   background-position: center 10%;
@@ -734,7 +744,7 @@ footer .footer-copyright {
   left: 0;
 }
 
-/* line 43, ../scss/structure.scss */
+/* line 46, ../scss/structure.scss */
 .pic-feature {
   display: block;
   width: 100%;
@@ -748,13 +758,13 @@ footer .footer-copyright {
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-/* line 52, ../scss/structure.scss */
+/* line 55, ../scss/structure.scss */
 .pic-feature:hover {
   background-image: url(../images/gallery/pic1_bw.jpg);
 }
 
 /*subpage: about + projects*/
-/* line 57, ../scss/structure.scss */
+/* line 60, ../scss/structure.scss */
 .pic-center-sub {
   background-size: 70%;
   background-position: center;
@@ -766,7 +776,7 @@ footer .footer-copyright {
   z-index: 99;
 }
 
-/* line 64, ../scss/structure.scss */
+/* line 67, ../scss/structure.scss */
 .pic-feature-sub {
   width: 100%;
   padding-top: 30%;
@@ -780,18 +790,18 @@ footer .footer-copyright {
   -o-filter: grayscale(40%);
   filter: grayscale(40%);
 }
-/* line 71, ../scss/structure.scss */
+/* line 74, ../scss/structure.scss */
 .pic-feature-sub.pic-feature-about {
   background-image: url(../images/gallery/pic3_bw.jpg);
 }
-/* line 72, ../scss/structure.scss */
+/* line 75, ../scss/structure.scss */
 .pic-feature-sub.pic-feature-proj {
   background-image: url(../images/gallery/pic2_bw.jpg);
 }
 
 @media only screen and (max-width: 640px) {
   /*.wrap{background-color:#0f0;}*/
-  /* line 82, ../scss/structure.scss */
+  /* line 85, ../scss/structure.scss */
   footer .footer-copyright {
     position: static;
   }
@@ -851,6 +861,8 @@ section:after {
 
 /* line 21, ../scss/content.scss */
 .section-center-title {
+  float: left;
+  width: 100%;
   background: url(../images/line4px.png) repeat-x center;
 }
 /* line 24, ../scss/content.scss */
