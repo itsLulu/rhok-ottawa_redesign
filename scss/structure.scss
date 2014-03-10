@@ -5,7 +5,9 @@
 /*default*/
 header, .wrap, footer{position:relative; z-index:3; width:100%; display: block;}
 header, footer{float:left;}
-.wrap {max-width:1280px; margin:0 auto;}
+.wrap {max-width:1280px; margin:0 auto;
+&.wrap-proj {float:left; max-width:1920px;}
+}
 
 
 footer{background-color:$dark; padding-bottom:2em;
@@ -28,7 +30,7 @@ footer{background-color:$dark; padding-bottom:2em;
 	background-position:center;
 	background-repeat: no-repeat;
 	background-image:url(../images/logo1.png);
-	border-radius: 100%; margin-top:23%;
+	border-radius: 100%; margin-top:18%;
 	background-color:$color-pri-alpha;
 
 	@include trans(0.5s);
@@ -45,7 +47,7 @@ footer{background-color:$dark; padding-bottom:2em;
 
 .pic-feature{
 	display:block;
-	width:100%; padding-top:66.6%;
+	width:100%; padding-top:56.25%;
 	background-size:100%;
 	background-position: center center;
 	background-repeat: no-repeat;

@@ -666,13 +666,18 @@ header, footer {
   max-width: 1280px;
   margin: 0 auto;
 }
+/* line 9, ../scss/structure.scss */
+.wrap.wrap-proj {
+  float: left;
+  max-width: 1920px;
+}
 
-/* line 11, ../scss/structure.scss */
+/* line 13, ../scss/structure.scss */
 footer {
   background-color: black;
   padding-bottom: 2em;
 }
-/* line 12, ../scss/structure.scss */
+/* line 14, ../scss/structure.scss */
 footer .footer-copyright {
   color: white;
   padding-left: 2%;
@@ -683,7 +688,7 @@ footer .footer-copyright {
 }
 
 /*homepage*/
-/* line 16, ../scss/structure.scss */
+/* line 18, ../scss/structure.scss */
 #rhok_brief {
   width: 46%;
   padding: 0 27% 0;
@@ -696,11 +701,11 @@ footer .footer-copyright {
   margin-top: 11%;
   display: none;
 }
-/* line 19, ../scss/structure.scss */
+/* line 21, ../scss/structure.scss */
 #rhok_brief a {
   color: #f25a3b;
 }
-/* line 20, ../scss/structure.scss */
+/* line 22, ../scss/structure.scss */
 #rhok_brief .learnmore {
   margin: 4% 13% 0;
   width: 66%;
@@ -709,13 +714,13 @@ footer .footer-copyright {
   font-size: 1rem;
   color: white;
 }
-/* line 22, ../scss/structure.scss */
+/* line 24, ../scss/structure.scss */
 #rhok_brief .learnmore:hover {
   background-color: white;
   color: #f25a3b;
 }
 
-/* line 25, ../scss/structure.scss */
+/* line 27, ../scss/structure.scss */
 .pic-center {
   width: 28%;
   padding-top: 28%;
@@ -726,14 +731,14 @@ footer .footer-copyright {
   background-repeat: no-repeat;
   background-image: url(../images/logo1.png);
   border-radius: 100%;
-  margin-top: 23%;
+  margin-top: 18%;
   background-color: rgba(242, 90, 59, 0.6);
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-/* line 36, ../scss/structure.scss */
+/* line 38, ../scss/structure.scss */
 .pic-center:hover {
   background-image: url(../images/logo2.png);
   background-position: center 10%;
@@ -744,11 +749,11 @@ footer .footer-copyright {
   left: 0;
 }
 
-/* line 46, ../scss/structure.scss */
+/* line 48, ../scss/structure.scss */
 .pic-feature {
   display: block;
   width: 100%;
-  padding-top: 66.6%;
+  padding-top: 56.25%;
   background-size: 100%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -758,13 +763,13 @@ footer .footer-copyright {
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-/* line 55, ../scss/structure.scss */
+/* line 57, ../scss/structure.scss */
 .pic-feature:hover {
   background-image: url(../images/gallery/pic1_bw.jpg);
 }
 
 /*subpage: about + projects*/
-/* line 60, ../scss/structure.scss */
+/* line 62, ../scss/structure.scss */
 .pic-center-sub {
   background-size: 70%;
   background-position: center;
@@ -776,7 +781,7 @@ footer .footer-copyright {
   z-index: 99;
 }
 
-/* line 67, ../scss/structure.scss */
+/* line 69, ../scss/structure.scss */
 .pic-feature-sub {
   width: 100%;
   padding-top: 30%;
@@ -790,18 +795,18 @@ footer .footer-copyright {
   -o-filter: grayscale(40%);
   filter: grayscale(40%);
 }
-/* line 74, ../scss/structure.scss */
+/* line 76, ../scss/structure.scss */
 .pic-feature-sub.pic-feature-about {
   background-image: url(../images/gallery/pic3_bw.jpg);
 }
-/* line 75, ../scss/structure.scss */
+/* line 77, ../scss/structure.scss */
 .pic-feature-sub.pic-feature-proj {
   background-image: url(../images/gallery/pic2_bw.jpg);
 }
 
 @media only screen and (max-width: 640px) {
   /*.wrap{background-color:#0f0;}*/
-  /* line 85, ../scss/structure.scss */
+  /* line 87, ../scss/structure.scss */
   footer .footer-copyright {
     position: static;
   }

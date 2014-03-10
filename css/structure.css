@@ -1,9 +1,9 @@
 /*
 Syntax error: Undefined variable: "$dark".
-        on line 11 of C:/Users/User/Documents/GitHub/rhok-ottawa_redesign/scss/structure.scss
+        on line 13 of C:/Users/User/Documents/GitHub/rhok-ottawa_redesign/scss/structure.scss
 
 Backtrace:
-C:/Users/User/Documents/GitHub/rhok-ottawa_redesign/scss/structure.scss:11
+C:/Users/User/Documents/GitHub/rhok-ottawa_redesign/scss/structure.scss:13
 C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/script/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/script/node.rb:40:in `perform'
 C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:294:in `visit_prop'
@@ -76,4 +76,4 @@ C:\Program Files (x86)\Scout\bin\compass:12:in `(root)'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$dark\".\A         on line 11 of C:/Users/User/Documents/GitHub/rhok-ottawa_redesign/scss/structure.scss"; }
+  content: "Syntax error: Undefined variable: \"$dark\".\A         on line 13 of C:/Users/User/Documents/GitHub/rhok-ottawa_redesign/scss/structure.scss"; }
